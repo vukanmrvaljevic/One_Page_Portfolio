@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+
 body {
   /* Full screen width and height */
   width: 100%;
@@ -20,7 +22,7 @@ body {
   width: 20em;
   height: 7em;
   text-align: center;
-  background-color: #97f6da;
+  background-color: white;
   border-radius: 10px;
   color: black;
   box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.2);
