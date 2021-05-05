@@ -250,21 +250,21 @@
                     <form class="contact-form" method="POST" data-netlify="true">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" class="fullname" id="name" placeholder="Name">
+                                <input type="text" name="name" class="fullname" id="name" placeholder="Name">
                             </div>
                             <div class="field email">
-                                <input type="text" class="email-input" id="email" placeholder="Email">
+                                <input type="email" name="email" class="email-input" id="email" placeholder="Email">
                             </div>
                         </div>
                         <div class="field">
-                            <input type="text" class="subject" id="subject" placeholder="Subject">
+                            <input type="text" class="subject" name="subject" id="subject" placeholder="Subject">
                         </div>
                         <div class="field textarea">
-                            <textarea class="message" cols="30" rows="10" id="message" placeholder="Message.."></textarea>
+                            <textarea class="message" name="message" cols="30" rows="10" id="message" placeholder="Message.."></textarea>
                         </div>
-                        <div class="field">
+                        <!-- <div class="field">
                             <div data-netlify-recaptcha="true"></div>
-                        </div>
+                        </div> -->
                         <div class="button-area">
                             <button class="send-msg" type="submit">Send message</button>
                         </div>
