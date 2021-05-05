@@ -9,7 +9,7 @@ body {
   align-items: center;
 
   margin: 0;
-  background-color: rgb(220, 220, 220);
+  background-color: rgb(18, 18, 18);
 }
 
 #container {
@@ -19,7 +19,10 @@ body {
 #inner {
   width: 20em;
   height: 18em;
-  background-color: white;
+  text-align: center;
+  background-color: #97f6da;
+  border-radius: 10px;
+  color: black;
   box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.2);
   transition: transform 0.5s;
   -webkit-transition: transform 0.5s;
