@@ -59,7 +59,6 @@ section .title {
   font-weight: 500;
   margin-bottom: 60px;
   padding-bottom: 20px;
-  font-family: "Ubuntu", sans-serif;
 }
 section .title::before {
   content: "";
@@ -412,6 +411,7 @@ section .title::after {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 500px;
   justify-content: center;
   transition: all 0.3s ease;
 }
@@ -481,7 +481,7 @@ a.button-style:hover {
 
 /* contact section styling */
 .contact .title::after {
-  content: "I'd love to hear from you";
+  content: "I'd love to hear from you!";
 }
 .contact .contact-content .column {
   width: calc(50% - 30px);
