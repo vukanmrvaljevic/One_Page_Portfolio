@@ -83,7 +83,7 @@
                 <div class="card">
                     <div class="box">
                         <i class="fas fa-chart-line"></i>
-                        <div class="text">Backend Security</div>
+                        <div class="text">Front-End Development</div>
                         <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p> -->
                     </div>
                 </div>
@@ -120,14 +120,14 @@
                     <div class="bars">
                         <div class="info">
                             <span>CSS</span>
-                            <span>60%</span>
+                            <span>80%</span>
                         </div>
                         <div class="line css"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
                             <span>JavaScript</span>
-                            <span>80%</span>
+                            <span>70%</span>
                         </div>
                         <div class="line js"></div>
                     </div>
@@ -143,14 +143,14 @@
                             <span>Node.JS</span>
                             <span>70%</span>
                         </div>
-                        <div class="line mysql"></div>
+                        <div class="line nodejs"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
                             <span>TypeScript</span>
                             <span>70%</span>
                         </div>
-                        <div class="line mysql"></div>
+                        <div class="line typescript"></div>
                     </div>
                 </div>
             </div>
@@ -247,23 +247,26 @@
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form class="contact-form" method="POST" action="mailto:vukan99@gmail.com" enctype="text/plain">
+                    <form class="contact-form" method="POST" data-netlify="true">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" class="fullname" id="Name" name="Name" placeholder="Name">
+                                <input type="text" class="fullname" id="name" placeholder="Name">
                             </div>
                             <div class="field email">
-                                <input type="text" class="email-input" id="Email" name="Email" placeholder="Email">
+                                <input type="text" class="email-input" id="email" placeholder="Email">
                             </div>
                         </div>
-                        <!-- <div class="field">
-                            <input type="text" class="subject" name="Subject" placeholder="Subject">
-                        </div> -->
+                        <div class="field">
+                            <input type="text" class="subject" id="subject" placeholder="Subject">
+                        </div>
                         <div class="field textarea">
-                            <textarea class="message" cols="30" rows="10" id="Message" name="Message" placeholder="Message.."></textarea>
+                            <textarea class="message" cols="30" rows="10" id="message" placeholder="Message.."></textarea>
+                        </div>
+                        <div class="field">
+                            <div data-netlify-recaptcha="true"></div>
                         </div>
                         <div class="button-area">
-                            <button class="send-msg" type="submit" name="send">Send message</button>
+                            <button class="send-msg" type="submit">Send message</button>
                         </div>
                     </form>
                 </div>

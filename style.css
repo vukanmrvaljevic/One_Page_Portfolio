@@ -377,15 +377,18 @@ section .title::after {
   width: 90%;
 }
 .skills-content .right .css::before {
-  width: 60%;
+  width: 80%;
 }
 .skills-content .right .js::before {
-  width: 80%;
+  width: 70%;
 }
 .skills-content .right .php::before {
   width: 50%;
 }
-.skills-content .right .mysql::before {
+.skills-content .right .nodejs::before {
+  width: 70%;
+}
+.skills-content .right .typescript::before {
   width: 70%;
 }
 
@@ -454,7 +457,7 @@ section .title::after {
 }
 
 /* Button Styling */
-a.button{
+a.button {
   display: inline-block;
 }
 a.button-style {
@@ -700,20 +703,19 @@ a.button-style:hover {
     margin: 0.5em auto;
   }
 
-    .work .title::after {
-      top: 55px;
-    }
+  .work .title::after {
+    top: 55px;
+  }
 
-    .contact .title::after {
-      top: 50px;
-    }
+  .contact .title::after {
+    top: 50px;
   }
-  .scroll-up-btn {
-    right: 15px;
-    bottom: 15px;
-    height: 38px;
-    width: 35px;
-    font-size: 23px;
-    line-height: 38px;
-  }
+}
+.scroll-up-btn {
+  right: 15px;
+  bottom: 15px;
+  height: 38px;
+  width: 35px;
+  font-size: 23px;
+  line-height: 38px;
 }
