@@ -23,6 +23,7 @@ body {
   height: 7em;
   text-align: center;
   background-color: white;
+  font-family: "Ubuntu", sans-serif;
   border-radius: 10px;
   color: black;
   box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.2);
