@@ -21,6 +21,10 @@ body {
 #inner {
   width: 22em;
   height: 7em;
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 5px;
   text-align: center;
   background-color: white;
   font-family: "Ubuntu", sans-serif;
