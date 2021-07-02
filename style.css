@@ -182,6 +182,7 @@ section .title::after {
 }
 .home .max-width .row {
   margin-right: 0;
+  /* margin-left: -50px; */
 }
 .home .home-content .text-1 {
   font-size: 27px;
@@ -393,7 +394,7 @@ section .title::after {
 
 /* work section styling */
 .work .title::after {
-  content: "Some of my favorite projects";
+  content: "Where to view my projects?";
 }
 .work .carousel .card {
   background: #222;
@@ -415,6 +416,7 @@ section .title::after {
   justify-content: center;
   transition: all 0.3s ease;
 }
+
 .work .carousel .card:hover .box {
   transform: scale(1.05);
 }
