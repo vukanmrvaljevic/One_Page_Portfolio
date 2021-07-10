@@ -436,6 +436,11 @@ section .title::after {
 .work .carousel .card:hover img {
   border-color: #fff;
 }
+
+.react-logo img{
+    width: 10px;
+}
+
 .owl-dots {
   text-align: center;
   margin-top: 20px;
