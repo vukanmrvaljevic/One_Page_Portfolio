@@ -425,20 +425,27 @@ section .title::after {
   font-weight: 500;
   margin: 10px 0 7px 0;
 }
-.work .carousel .card img {
+/* .work .carousel .card img{
   height: 150px;
   width: 150px;
   object-fit: cover;
   border-radius: 50%;
   border: 5px solid rgb(151, 246, 218);
   transition: all 0.3s ease;
-}
-.work .carousel .card:hover img {
-  border-color: #fff;
+} */
+
+.work .carousel .card .image_one{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid rgb(151, 246, 218);
+    transition: all 0.3s ease;  
 }
 
-.react-logo img{
-    width: 10px;
+
+.work .carousel .card:hover img {
+  border-color: #fff;
 }
 
 .owl-dots {
